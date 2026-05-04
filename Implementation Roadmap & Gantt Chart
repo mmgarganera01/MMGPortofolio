@@ -1,0 +1,289 @@
+# Implementation Roadmap & Gantt Chart
+
+## 1. 12-Month Implementation Timeline (Gantt View)
+
+```
+UNDP DIGITAL CITIZEN ENGAGEMENT PLATFORM
+Implementation Timeline: May 2026 - April 2027 (12 Months)
+
+PHASE 1: PLANNING & DESIGN (Weeks 1-8)
+═══════════════════════════════════════════════════════════════════════════
+Task                          Week:  1  2  3  4  5  6  7  8  Owner
+─────────────────────────────────────────────────────────────────────────
+1.1 Kickoff & Team Setup       ███░░░░░░░░░░░░░░░░░░░░░░░░░░░ PM
+1.2 Requirements Finalization  ░░░███░░░░░░░░░░░░░░░░░░░░░░░░░ BA
+1.3 System Architecture Design ░░░░░███░░░░░░░░░░░░░░░░░░░░░░░ TL
+1.4 Security & Compliance      ░░░░░░░███░░░░░░░░░░░░░░░░░░░░░ SecOff
+1.5 Integration Technical Plan ░░░░��░░░░███░░░░░░░░░░░░░░░░░░░ IntLead
+──────────────────────────────────────────────────────────────────────────
+GATE 1: Strategic Fit Approval ─────────────────────[✓ APPROVED]
+GATE 2 Ready: Tech & Compliance ────────────────────[In Progress]
+
+
+PHASE 2: DEVELOPMENT & INTEGRATION (Weeks 9-26)
+═══════════════════════════════════════════════════════════════════════════
+Task                          Week:  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26
+─────────────────────────────────────────────────────────────────────────────────────────
+2.1 Vendor Contracting         ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ PM
+2.2 Core Platform Setup        ░░░███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ Vendor
+2.3 Customization & Dev        ░░░░░░███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ Vendor
+2.4 Mobile App Development     ░░░░░░░░░░░░███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ Vendor
+2.5 Legacy System Integration  ░░░░░░░░░░░░░░░░░░███████░░░░░░░░░░░░░░░░░░░░░░░░░ IntTeam
+2.6 Data Migration Planning    ░░░░░░░░░░░░░░░░░░░░░░░░███░░░░░░░░░░░░░░░░░░░░░░░ DataTeam
+2.7 Security Architecture Rev. ░░░░░░░░░░░░░░░░░░░░░░░░░░░███░░░░░░░░░░░░░░░░░░░░░ SecOff
+──────────────────────────────────────────────────────────────────────────────────────────
+GATE 2: Technical & Compliance ──────────────────────────────────────[✓ APPROVED]
+GATE 3 Ready: Readiness & Security ────────────────────────────────[In Progress]
+
+
+PHASE 3: TESTING & OPTIMIZATION (Weeks 27-35)
+═══════════════════════════════════════════════════════════════════════════
+Task                          Week: 27 28 29 30 31 32 33 34 35  Owner
+─────────────────────────────────────────────────────────────────────────
+3.1 Unit & Integration Testing  ███░░░░░░░░░░░░░░░░░░░░░░░░░░  QA
+3.2 User Acceptance Testing     ░░░███████░░░░░░░░░░░░░░░░░░░  QA/BA
+3.3 Performance & Load Testing  ░░░░░░░░░░███░░░░░░░░░░░░░░░░  QA
+3.4 Security Penetration Test   ░░░░░░░░░░░░░███░░░░░░░░░░░░░  SecOff
+3.5 Accessibility Compliance    ░░░░░░░░░░░░░░░███░░░░░░░░░░░  BA
+3.6 Staff Training Program      ░░░░░░░░░░░░░░░░░███░░░░░░░░░  Training
+3.7 Go-Live Readiness Review    ░░░░░░░░░░░░░░░░░░░███░░░░░░░  PM
+──────────��───────────────────────────────────────────────────────────────
+GATE 3: Readiness & Security ──────────────────────────────────[✓ APPROVED]
+GATE 4 Ready: Post-Launch ────────────────────────────────────[In Progress]
+
+
+PHASE 4: LAUNCH & OPTIMIZATION (Weeks 36-52)
+═══════════════════════════════════════════════════════════════════════════
+Task                          Week: 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52
+─────────────────────────────────────────────────────────────────────────────────────
+4.1 Staged Rollout Execution   ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ PM
+4.2 24/7 Support Operations    ░░░██████████████████████████████████████████████░░ Support
+4.3 Citizen Awareness Campaign ░░░███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ Marketing
+4.4 Performance Monitoring     ░░░░░░░███████████████████████████████████████░░░░░ Ops
+4.5 Citizen Feedback & UX Opt. ░░░░░░░░░███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ BA
+4.6 Operational Handover       ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░██████░░░░░░ Ops
+──────────────────────────────────────────────────────────────────────────────────────
+GATE 4: Post-Launch Monitoring ────────────────────────────────────[✓ COMPLETE]
+
+
+LEGEND:
+███ = Task in Progress
+░░░ = Task not yet started
+✓ = Gate Approved / Milestone Complete
+─ = Continuous/Ongoing task
+
+
+CRITICAL PATH (Longest sequence of dependent tasks):
+Vendor Selection → Core Platform Dev → Integration → Testing → Rollout
+Timeline: 26 weeks (Weeks 9-35)
+Any delay in these tasks directly impacts overall timeline
+
+
+KEY MILESTONES:
+Week 8:   ✓ GATE 2 APPROVAL (Tech & Compliance review)
+Week 26:  ✓ GATE 3 APPROVAL (Readiness & Security)
+Week 36:  ✓ SOFT LAUNCH (Initial 1 department)
+Week 48:  ✓ FULL PRODUCTION (All 5 departments)
+Week 52:  ✓ GATE 4 COMPLETION (Post-launch monitoring)
+```
+
+---
+
+## 2. Resource Allocation by Phase
+
+```
+RESOURCE REQUIREMENTS & ALLOCATION
+
+PHASE 1: PLANNING & DESIGN (Weeks 1-8)
+═══════════════════════════════════════════════════════════════════════════
+Role                      FTE    Cost/Month  Duration    Total Cost
+─────────────────────────────────────────────────────────────────────────
+Project Manager           1.0    $15K        8 weeks     $28K
+Business Analyst          2.0    $12K ea     8 weeks     $48K
+IT Technical Lead         1.0    $14K        8 weeks     $26K
+IT Security Officer       0.8    $16K        8 weeks     $30K
+Data Protection Officer   0.5    $14K        8 weeks     $13K
+Integration Specialist    0.5    $12K        8 weeks     $11K
+───────────────────────────────────────────────────────────────────────────
+PHASE 1 TOTAL:            6.3 FTE              8 weeks     $156K
+
+
+PHASE 2: DEVELOPMENT & INTEGRATION (Weeks 9-26, 18 weeks)
+═══════════════════════════════════════════════════════════════════════════
+Role                      FTE    Cost/Month  Duration      Total Cost
+─────────────────────────────────────────────────────────────────────────
+Vendor Core Team          N/A    $45K/wk    18 weeks      $810K
+(Developers, QA, Arch)
+
+Government Side:
+Project Manager           1.0    $15K       18 weeks      $63K
+Business Analyst          1.5    $12K ea    18 weeks      $54K
+Integration Specialist    2.0    $12K ea    18 weeks      $86K
+IT Security Officer       0.5    $16K       18 weeks      $18K
+Data Architect            1.0    $13K       18 weeks      $46K
+───────────────────────────────────────────────────────────────────────────
+PHASE 2 TOTAL (Gov):      6.0 FTE              18 weeks     $267K
+PHASE 2 TOTAL (Vendor):   N/A                              $810K
+───────────────────────────────────────────────────────────────────────────
+PHASE 2 GRAND TOTAL:                                       $1,077K
+
+
+PHASE 3: TESTING & OPTIMIZATION (Weeks 27-35, 9 weeks)
+═══════════════════════════════════════════════════════════════════════════
+Role                      FTE    Cost/Month  Duration     Total Cost
+─────────────────────────────────────────────────────────────────────────
+Project Manager           1.0    $15K        9 weeks      $31K
+QA Lead                   1.0    $11K        9 weeks      $23K
+QA Engineers              3.0    $10K ea     9 weeks      $62K
+Business Analyst (UAT)    2.0    $12K ea     9 weeks      $54K
+IT Security (Pen Testing) 1.0    $16K        9 weeks      $33K
+Training Coordinator      1.0    $10K        9 weeks      $21K
+Vendor Support            N/A    $20K/wk    9 weeks      $180K
+───────────────────────────────────────────────────────────────────────────
+PHASE 3 TOTAL:            9.0 FTE              9 weeks     $404K
+
+
+PHASE 4: LAUNCH & OPTIMIZATION (Weeks 36-52, 17 weeks)
+═══════════════════════════════════════════════════════════════════════════
+Role                      FTE    Cost/Month  Duration     Total Cost
+─────────────────────────────────────────────────────────────────────────
+Project Manager           1.0    $15K        17 weeks     $59K
+Operations Manager        1.0    $12K        17 weeks     $44K
+Support Engineer (L2)     2.0    $10K ea     17 weeks     $73K
+Business Analyst (Monitor)1.0    $12K        17 weeks     $41K
+Vendor Support (24/7)     N/A    $25K/wk    17 weeks     $425K
+Marketing/Comms           1.0    $10K        17 weeks     $37K
+───────────────────────────────────────────────────────────────────────────
+PHASE 4 TOTAL:            6.0 FTE              17 weeks    $679K
+
+
+═══════════════════════════════════════════════════════════════════════════
+TOTAL PROJECT RESOURCES:
+Government FTE (52 weeks):  ~15-20 FTE average (varies by phase)
+Vendor FTE:                 ~30-40 FTE (concentrated in Phase 2-3)
+TOTAL DURATION:             52 weeks (1 year)
+TOTAL COST (Gov side):      ~$1.3M
+TOTAL COST (Vendor):        ~$2.85M (included in TCO)
+═══════════════════════════════════════════════════════════════════════════
+```
+
+---
+
+## 3. Monthly Budget Burn-Down
+
+```
+BUDGET ALLOCATION & COST TRACKING
+
+OpenCitizen Platform Selection: $4.75M (5-year total)
+Year 1 Budget Allocation: $2.45M
+
+MONTHLY COST SCHEDULE:
+
+Month          Phase           Budgeted    Actual    Variance   Cumulative
+───���────────────────────────────────────────────────────────────────────
+May 2026       Planning        $150K       $145K     +$5K       $145K
+Jun 2026       Planning        $120K       $118K     +$2K       $263K
+Jul 2026       Planning/Dev    $220K       $235K     -$15K      $498K
+Aug 2026       Development     $280K       $275K     +$5K       $773K
+Sep 2026       Development     $380K       $385K     -$5K       $1.158M
+Oct 2026       Development     $320K       $315K     +$5K       $1.473M
+Nov 2026       Dev/Testing     $310K       $320K     -$10K      $1.793M
+Dec 2026       Testing         $290K       $285K     +$5K       $2.078M
+Jan 2027       Testing/Launch  $185K       $180K     +$5K       $2.258M
+Feb 2027       Launch          $150K       $165K     -$15K      $2.423M
+Mar 2027       Launch/Ops      $115K       $120K     -$5K       $2.543M
+Apr 2027       Operations      $95K        $92K      +$3K       $2.635M
+────────────────────────────────────────────────────────────────────────────
+YEAR 1 TOTAL:                  $2.605M     $2.635M   -$30K      $2.635M
+                               (Budget)    (Actual)  (Over)
+
+VARIANCE ANALYSIS:
+• Overall variance: -$30K (1.2% overrun - ACCEPTABLE)
+• Months under budget: 7 months (favorable)
+• Months over budget: 5 months (manageable)
+• Highest month: Jan 2027 ($185K budgeted, $180K actual)
+• Contingency reserve: $215K (10% of budget) - NOT YET SPENT
+
+BUDGET TRACKING DASHBOARD:
+┌─────────────────────────────┐
+│ YTD Spend: $2.635M / $2.605M│
+│ Variance: -$30K (1.2% over) │
+│ Remaining Budget: $215K     │
+│ Burn Rate: $220K/month avg. │
+│ Forecast: ON BUDGET ✓       │
+└─────────────────────────────┘
+```
+
+---
+
+## 4. Dependency Map
+
+```
+TASK DEPENDENCIES & CRITICAL PATH
+
+Core Dependency Chain:
+═══════════════════════════════════════════════════════════════════════════
+
+START
+  ├──► 1.2 Requirements Finalization (Week 2-3)
+  │     └──► MUST COMPLETE BEFORE: Architecture design
+  │
+  ├──► 1.3 System Architecture Design (Week 3-4)
+  │     └──► MUST COMPLETE BEFORE: Platform setup
+  │
+  ├──► 1.4 Security & Compliance (Week 4-5)
+  │     └──► MUST COMPLETE BEFORE: Gate 2 approval
+  │
+  └──► 1.5 Integration Technical Plan (Week 5-6)
+        └──► MUST COMPLETE BEFORE: Integration implementation
+
+GATE 2: Technical & Compliance Approval (Week 8)
+  ├──► Requires: Architecture + Security + DPIA approved
+  │
+  └──► Enables: Vendor selection + Contract signing
+
+Vendor Contracting (Week 8-10)
+  ├──► Requires: Gate 2 approval + Vendor evaluation done
+  │
+  └──► Enables: Development can begin
+
+Core Platform Setup (Week 10-12)
+  ├──► Requires: Vendor contract signed
+  │
+  └──► Enables: Customization work
+
+Parallel Workstreams (can start simultaneously once Gate 2 approved):
+  ├─ Customization & Development (Week 10-16)
+  ├─ Mobile App Development (Week 12-20)
+  ├─ Legacy Integration (Week 16-23)
+  └─ Data Migration Planning (Week 18-24)
+
+Testing Phases (must start after core dev complete):
+  ├─ Unit & Integration Testing (Week 27-29)
+  ├─ UAT (Week 28-33)
+  ├─ Performance Testing (Week 30-32)
+  └─ Security Penetration Testing (Week 32-34)
+
+Launch (Week 36+ - can only start after GATE 3 approval)
+  ├─ Requires: All testing passed + Security audit approved
+  ├─ Requires: Staff training completed
+  └─ Enables: Citizen rollout
+
+CRITICAL PATH (Drives Overall Timeline):
+Requirements → Architecture → Gate 2 → Vendor Contract → Core Dev → Integration → Testing → Gate 3 → Launch
+
+If ANY task on critical path delays by X weeks, entire project delays by X weeks.
+Highest Risk Items: Vendor performance, Integration complexity, UAT issues
+
+
+RISK MITIGATIONS:
+├─ 10% Schedule Contingency built in (5 weeks buffer)
+├─ Parallel workstreams to maximize efficiency
+├─ Early vendor engagement to reduce integration risk
+└─ Regular risk reviews (bi-weekly)
+```
+
+---
+
+*Implementation Roadmap Last Updated: May 4, 2026*
+*Next Review: Weekly at Project Status Meeting (Mondays 9:00 AM)*
